@@ -3,7 +3,7 @@ import configDatabase from "../config/database";
 import mongoose from "mongoose";
 
 import User from "../app/models/User";
-import Product from "../app/models/Products";
+import Product from "../app/models/Product";
 import Category from "../app/models/category";
 
 const models = [User, Product, Category];
